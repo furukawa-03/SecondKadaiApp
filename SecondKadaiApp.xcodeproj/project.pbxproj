@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B15F7E3623E6FAC300633F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F7E3523E6FAC300633F2E /* AppDelegate.swift */; };
 		B15F7E3823E6FAC300633F2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F7E3723E6FAC300633F2E /* SceneDelegate.swift */; };
-		B15F7E3A23E6FAC300633F2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F7E3923E6FAC300633F2E /* ViewController.swift */; };
 		B15F7E3D23E6FAC300633F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15F7E3B23E6FAC300633F2E /* Main.storyboard */; };
 		B15F7E3F23E6FAC500633F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15F7E3E23E6FAC500633F2E /* Assets.xcassets */; };
 		B15F7E4223E6FAC500633F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15F7E4023E6FAC500633F2E /* LaunchScreen.storyboard */; };
+		B15F7E4C23E701EE00633F2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F7E4B23E701EE00633F2E /* ViewController.swift */; };
+		B15F7E4E23E702F700633F2E /* GeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F7E4D23E702F700633F2E /* GeetingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B15F7E3223E6FAC300633F2E /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15F7E3523E6FAC300633F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B15F7E3723E6FAC300633F2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B15F7E3923E6FAC300633F2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B15F7E3C23E6FAC300633F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B15F7E3E23E6FAC500633F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15F7E4123E6FAC500633F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15F7E4323E6FAC500633F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15F7E4B23E701EE00633F2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B15F7E4D23E702F700633F2E /* GeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeetingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				B15F7E3523E6FAC300633F2E /* AppDelegate.swift */,
 				B15F7E3723E6FAC300633F2E /* SceneDelegate.swift */,
-				B15F7E3923E6FAC300633F2E /* ViewController.swift */,
+				B15F7E4B23E701EE00633F2E /* ViewController.swift */,
+				B15F7E4D23E702F700633F2E /* GeetingViewController.swift */,
 				B15F7E3B23E6FAC300633F2E /* Main.storyboard */,
 				B15F7E3E23E6FAC500633F2E /* Assets.xcassets */,
 				B15F7E4023E6FAC500633F2E /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15F7E3A23E6FAC300633F2E /* ViewController.swift in Sources */,
+				B15F7E4E23E702F700633F2E /* GeetingViewController.swift in Sources */,
+				B15F7E4C23E701EE00633F2E /* ViewController.swift in Sources */,
 				B15F7E3623E6FAC300633F2E /* AppDelegate.swift in Sources */,
 				B15F7E3823E6FAC300633F2E /* SceneDelegate.swift in Sources */,
 			);

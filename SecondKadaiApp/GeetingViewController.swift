@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GeetingViewController.swift
 //  SecondKadaiApp
 //
 //  Created by jumu on 2020/02/02.
@@ -7,25 +7,19 @@
 //
 
 import UIKit
+class GeetingViewController:UIViewController{
+    @IBOutlet weak var label: UILabel!
+    var argString = ""
+    
 
-class ViewController: UIViewController {
-    @IBAction func unwind(_ segue: UIStoryboardSegue){
-        
-    }
-    @IBOutlet weak var textFiled: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        label.text = "こんにちは、\(argString)さん"
         
-        let geetingViewController:GeetingViewController = segue.destination as! GeetingViewController
-        geetingViewController.argString = textFiled.text!
         
     }
-        
-    
     
 
     /*
